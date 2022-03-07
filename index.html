@@ -8,7 +8,12 @@
     <title>Document</title>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
         #print-root {
+            width: 704px;
             display: flex;
             justify-content: space-between;
         }
@@ -40,7 +45,7 @@
         }
 
         var opt = {
-            // margin: [10, 12, 10, 12],
+            margin: [10, 12, 10, 12],
             filename: fileName,
             image: { type: 'jpeg', quality: 0.95 },
             html2canvas: option,
